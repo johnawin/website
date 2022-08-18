@@ -1,21 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from 'react-bootstrap/Button';
+import "bootstrap/dist/css/bootstrap.min.css";
+import img from './images/IMG_0345.JPG';
+import {propTypes} from 'react-bootstrap/Image';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+          <img src={img} height="600"/>
+        
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Johnathan Khoa Nguyen
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.linkedin.com/in/johnawin/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          LinkedIn
+        </a>
+        <a
+          className="App-link"
+          href="https://github.com/johnawin"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
         </a>
       </header>
     </div>
